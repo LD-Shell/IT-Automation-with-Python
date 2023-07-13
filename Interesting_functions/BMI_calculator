@@ -1,0 +1,19 @@
+#Script to calculate the BMI based on age, weight (kg), height(meters) 
+def BMI(age,weight,height):
+    bmi=weight/height**2
+    if age<16: #Script is only accurate for persons below age 16 years
+        print('Sorry, the BMI output for this script is accurate for people below 16 years')
+    while age>=16:
+        if bmi<18.5:
+            print('You are {} years old. Your BMI is {:.2f}, and you are underweight'.format(age,bmi))
+            break  
+        elif bmi>=18.5 and bmi<25:
+            print('You are {} years old. Your BMI is {:.2f} and you are Normal'.format(age,bmi))
+            break  
+        elif bmi>=25 and bmi<30:
+            print('You are {} years old. Your BMI is {:.2f} and you are Overweight'.format(age,bmi))
+            break  
+        elif bmi>=30:
+            print('You are {} years old. Your BMI is {:.2f} and you are obese'.format(age,bmi))
+            break  
+
