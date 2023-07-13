@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #Script to calculate the BMI based on age, weight (kg), height(meters) 
 def BMI(age,weight,height):
     bmi=weight/height**2
