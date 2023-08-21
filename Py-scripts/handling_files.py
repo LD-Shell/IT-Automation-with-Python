@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 #This script begins with a line containing the #! character 
 #combination, which is commonly called hash bang or shebang, 
