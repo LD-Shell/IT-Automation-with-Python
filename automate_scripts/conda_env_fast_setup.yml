@@ -1,0 +1,74 @@
+name: daraconda
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+
+dependencies:
+  - python=3.10
+  - pip
+
+  # --- Core SciPy Stack ---
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - sympy
+  - statsmodels
+
+  # --- Machine Learning + AI ---
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - tensorflow=2.14.0
+  - keras=2.14.0
+  - pytorch=2.2.0
+  - torchvision=0.17.0
+  - transformers
+  - pycaret
+
+  # --- NLP + Language ---
+  - nltk
+  - spacy
+  - gensim
+  - beautifulsoup4
+  - requests
+
+  # --- Visualization & Interactive Dashboards ---
+  - plotly
+  - dash
+  - bokeh
+  - ipywidgets
+
+  # --- Jupyter Ecosystem ---
+  - notebook
+  - jupyterlab
+
+  # --- Web APIs & Dev Tools ---
+  - fastapi
+  - flask
+
+  # --- I/O + Data Manipulation ---
+  - openpyxl
+  - xlrd
+  - pyarrow
+
+  # --- Molecular Dynamics / Sim ---
+  - mdanalysis
+  - mdtraj
+  - openff-toolkit    # Open Force Field Toolkit
+  - openbabel         # gives you the `pybel` module
+  #- pytraj            # MDAnalysis / MDTraj complement conda install -y -c conda-forge ambertools compilers
+  - openmm
+  - hoomd
+  - lammps
+  - ase
+  - pymatgen
+  - parmed
+  - signac
+  - nglview
+
+  # --- Optional extras via pip only ---
+  - pip:
+      - py3Dmol
