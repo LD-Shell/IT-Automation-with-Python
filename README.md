@@ -1,2 +1,2 @@
 # IT-Automation-with-Python
-Useful scripts from Google IT Automation
+Useful scripts to work smarter
