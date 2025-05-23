@@ -1,0 +1,8 @@
+deep_translator==1.11.4
+faster_whisper==1.1.1
+googletrans==4.0.0rc1
+moviepy==2.2.1
+pysrt==1.1.2
+sv_ttk==2.6.0
+torch==2.6.0
+whisper==1.1.10
